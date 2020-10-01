@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -11,6 +11,9 @@ export default function Header() {
           <Link href="/about">
             <a>About</a>
           </Link>
+          <a href="https://twitter.com/jlengstorf" rel="me">
+            Twitter
+          </a>
         </nav>
       </header>
       <style jsx>{`
@@ -38,5 +41,5 @@ export default function Header() {
         }
       `}</style>
     </>
-  )
+  );
 }
