@@ -11,7 +11,7 @@ export default function Header() {
           <Link href="/about">
             <a>About</a>
           </Link>
-          <a href="https://twitter.com/jlengstorf" rel="me">
+          <a href="https://twitter.com/LWJShow" rel="me">
             Twitter
           </a>
         </nav>
